@@ -9,5 +9,11 @@ public class Test1 {
      {
          Assert.assertEquals(init_max(10,5),10);
      }
+
+    @Test
+    public void test2()
+    {
+        Assert.assertEquals(init_min(6,9),6);
+    }
  }
 
