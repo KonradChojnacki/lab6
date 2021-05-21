@@ -16,6 +16,14 @@ public class Main {
         }
     }
 
+    public static boolean isPositive(int a){
+        if(a > 0){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
     public static void main(String [] args)
     {
         ;
