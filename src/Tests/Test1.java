@@ -15,6 +15,11 @@ public class Test1 {
     {
         Assert.assertEquals(init_min(6,9),6);
     }
+    @Test
+    public void test3()
+    {
+        Assert.assertTrue(isPositive(5));
+    }
  }
 
 
